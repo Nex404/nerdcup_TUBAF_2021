@@ -16,9 +16,16 @@ def main():
     # Covid dataframe
     covid_csv = "./data/covid19/Mittelsachsen.csv"
     covid_data = pd.read_csv(covid_csv, sep=",", header=0)
+    
+    # weather dataframe
+    weather_csv = "./data/Wetter/wetter_mod6.csv"
+    weather_data = pd.read_csv(weather_csv, sep=",", header=0)
 
     # Join the mensa info with the covid information
     merged_df = pd.merge(all_mensa, covid_data, on="Woche")
+    
+    # hier noch mal gucken ob alles passt
+    merged_df = pd.merge(merged_df, weather_data, on="Woche")
     print(merged_df.head())
     # Group by week
     grouped_df = merged_df.groupby(by=["Woche"])
