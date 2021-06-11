@@ -1,6 +1,8 @@
 from os import sep
 import pandas as pd
+import numpy as np
 from utils import *
+import matplotlib.pyplot as plt
 
 def main():
     # Mensa dataframe
@@ -16,8 +18,22 @@ def main():
     covid_data = pd.read_csv(covid_csv, sep=",", header=0)
 
     # Join the mensa info with the covid information
-    new_df = pd.merge(all_mensa, covid_data, on="Woche")
-    print(new_df)
+    merged_df = pd.merge(all_mensa, covid_data, on="Woche")
+
+    # Group by week
+    grouped_df = merged_df.groupby(by=["Woche"])
+
+    x1 = list(merged_df[merged_df["Name"] == "Auflaeufe und Pizzen"]["Anzahl"])
+    x2 = list(merged_df[merged_df["Name"] == "mensaVital"]["Anzahl"])
+    x3 = list(merged_df[merged_df["Name"] == "Selbstwahltheken Gemuese Pasta Salat"]["Anzahl"])
+    x4 = list(merged_df[merged_df["Name"] == "tabula-CT und Wok"]["Anzahl"])
+    x5 = list(merged_df[merged_df["Name"] == "Vegetarisch"]["Anzahl"])
+
+    colors = ['#E69F00', '#56B4E9', '#F0E442', '#009E73', '#D55E00']
+
+    plt.hist([x1, x2, x3, x4, x5], color=colors, label=mensa_names, stacked=True)
+    plt.legend()
+    plt.savefig("test.png")
 
 if __name__ == "__main__":
     main()
