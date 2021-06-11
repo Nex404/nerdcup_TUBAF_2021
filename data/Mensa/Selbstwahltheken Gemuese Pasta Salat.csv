@@ -1,120 +1,120 @@
-Woche,Anzahl,Sorte
-2019.14,294,Bedienstete
-2019.15,272,Bedienstete
-2019.16,216,Bedienstete
-2019.17,208,Bedienstete
-2019.18,205,Bedienstete
-2019.19,283,Bedienstete
-2019.20,246,Bedienstete
-2019.21,260,Bedienstete
-2019.22,158,Bedienstete
-2019.23,283,Bedienstete
-2019.24,187,Bedienstete
-2019.25,274,Bedienstete
-2019.26,232,Bedienstete
-2019.27,285,Bedienstete
-2019.28,206,Bedienstete
-2019.29,200,Bedienstete
-2019.30,198,Bedienstete
-2019.31,210,Bedienstete
-2019.32,275,Bedienstete
-2019.33,250,Bedienstete
-2019.34,241,Bedienstete
-2019.35,292,Bedienstete
-2019.36,226,Bedienstete
-2019.37,175,Bedienstete
-2019.38,231,Bedienstete
-2019.39,261,Bedienstete
-2019.40,178,Bedienstete
-2019.41,284,Bedienstete
-2019.42,229,Bedienstete
-2019.43,209,Bedienstete
-2019.44,153,Bedienstete
-2019.45,226,Bedienstete
-2019.46,228,Bedienstete
-2019.47,159,Bedienstete
-2019.48,259,Bedienstete
-2019.49,219,Bedienstete
-2019.50,222,Bedienstete
-2019.51,165,Bedienstete
-2020.02,214,Bedienstete
-2020.03,236,Bedienstete
-2020.04,223,Bedienstete
-2020.05,209,Bedienstete
-2020.06,229,Bedienstete
-2020.07,168,Bedienstete
-2020.08,194,Bedienstete
-2020.09,223,Bedienstete
-2020.10,256,Bedienstete
-2020.11,267,Bedienstete
-2020.12,14,Bedienstete
-2020.42,37,Bedienstete
-2020.43,78,Bedienstete
-2020.44,88,Bedienstete
-2020.45,76,Bedienstete
-2020.46,66,Bedienstete
-2020.47,28,Bedienstete
-2020.48,83,Bedienstete
-2020.49,66,Bedienstete
-2020.50,74,Bedienstete
-2020.51,25,Bedienstete
-2019.14,631,Studenten
-2019.15,762,Studenten
-2019.16,584,Studenten
-2019.17,435,Studenten
-2019.18,350,Studenten
-2019.19,527,Studenten
-2019.20,499,Studenten
-2019.21,559,Studenten
-2019.22,319,Studenten
-2019.23,557,Studenten
-2019.24,447,Studenten
-2019.25,532,Studenten
-2019.26,475,Studenten
-2019.27,519,Studenten
-2019.28,535,Studenten
-2019.29,453,Studenten
-2019.30,442,Studenten
-2019.31,420,Studenten
-2019.32,495,Studenten
-2019.33,401,Studenten
-2019.34,271,Studenten
-2019.35,273,Studenten
-2019.36,243,Studenten
-2019.37,287,Studenten
-2019.38,272,Studenten
-2019.39,271,Studenten
-2019.40,250,Studenten
-2019.41,512,Studenten
-2019.42,702,Studenten
-2019.43,710,Studenten
-2019.44,467,Studenten
-2019.45,592,Studenten
-2019.46,527,Studenten
-2019.47,447,Studenten
-2019.48,573,Studenten
-2019.49,504,Studenten
-2019.50,577,Studenten
-2019.51,452,Studenten
-2020.02,477,Studenten
-2020.03,574,Studenten
-2020.04,530,Studenten
-2020.05,473,Studenten
-2020.06,427,Studenten
-2020.07,353,Studenten
-2020.08,322,Studenten
-2020.09,394,Studenten
-2020.10,445,Studenten
-2020.11,355,Studenten
-2020.12,12,Studenten
-2020.42,97,Studenten
-2020.43,187,Studenten
-2020.44,228,Studenten
-2020.45,194,Studenten
-2020.46,153,Studenten
-2020.47,46,Studenten
-2020.48,128,Studenten
-2020.49,119,Studenten
-2020.50,119,Studenten
-2020.51,39,Studenten
-2021.08,0,Studenten
+Woche,Anzahl,Sorte,Name
+2019.14,294,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.15,272,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.16,216,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.17,208,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.18,205,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.19,283,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.2,246,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.21,260,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.22,158,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.23,283,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.24,187,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.25,274,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.26,232,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.27,285,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.28,206,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.29,200,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.3,198,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.31,210,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.32,275,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.33,250,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.34,241,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.35,292,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.36,226,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.37,175,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.38,231,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.39,261,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.4,178,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.41,284,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.42,229,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.43,209,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.44,153,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.45,226,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.46,228,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.47,159,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.48,259,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.49,219,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.5,222,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.51,165,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.02,214,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.03,236,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.04,223,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.05,209,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.06,229,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.07,168,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.08,194,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.09,223,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.1,256,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.11,267,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.12,14,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.42,37,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.43,78,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.44,88,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.45,76,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.46,66,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.47,28,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.48,83,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.49,66,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.5,74,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2020.51,25,Bedienstete,Selbstwahltheken Gemuese Pasta Salat
+2019.14,631,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.15,762,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.16,584,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.17,435,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.18,350,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.19,527,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.2,499,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.21,559,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.22,319,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.23,557,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.24,447,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.25,532,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.26,475,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.27,519,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.28,535,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.29,453,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.3,442,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.31,420,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.32,495,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.33,401,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.34,271,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.35,273,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.36,243,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.37,287,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.38,272,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.39,271,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.4,250,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.41,512,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.42,702,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.43,710,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.44,467,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.45,592,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.46,527,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.47,447,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.48,573,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.49,504,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.5,577,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2019.51,452,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.02,477,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.03,574,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.04,530,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.05,473,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.06,427,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.07,353,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.08,322,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.09,394,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.1,445,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.11,355,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.12,12,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.42,97,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.43,187,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.44,228,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.45,194,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.46,153,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.47,46,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.48,128,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.49,119,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.5,119,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2020.51,39,Studenten,Selbstwahltheken Gemuese Pasta Salat
+2021.08,0,Studenten,Selbstwahltheken Gemuese Pasta Salat

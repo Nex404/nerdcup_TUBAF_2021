@@ -6,6 +6,7 @@ filepath = "data/Wetter/wetter_mod5.csv"
 data = pd.read_csv(filepath, delimiter=",", header=0)
 
 
+
 ###########################################
 # edit original data 
 ###########################################
@@ -111,3 +112,4 @@ def get_day(df, index):
 # print(get_day(data, 50000))
 # print(type(get_day(data, 50000)))
 # print(data.head())
+
