@@ -7,7 +7,6 @@ def read_covid19_data(filepath):
 
 def main():
     covid19_mittelsachsen = "./data/covid19/Mittelsachsen.csv"
-
     covid19_data = read_covid19_data(covid19_mittelsachsen)
 
 if __name__ == "__main__":
