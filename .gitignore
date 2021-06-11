@@ -10,6 +10,7 @@ log.log
 *.noseids
 .nyc_output
 .vscode-test
+.ipynb_checkpoints
 venv
 __pycache__
 npm-debug.log
