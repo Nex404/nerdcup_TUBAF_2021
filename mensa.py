@@ -19,7 +19,7 @@ def main():
 
     # Join the mensa info with the covid information
     merged_df = pd.merge(all_mensa, covid_data, on="Woche")
-
+    print(merged_df.head())
     # Group by week
     grouped_df = merged_df.groupby(by=["Woche"])
 

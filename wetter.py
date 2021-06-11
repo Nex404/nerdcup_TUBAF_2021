@@ -79,7 +79,16 @@ data = pd.read_csv(filepath, delimiter=",", header=0)
 # print(data)
 # print(data.dtypes)
 
+##########################################
+# convert year and week to 1 column
+##########################################
+# data["Woche"] = data["date"].astype(str) + "." + data["date.1"].astype(str)
+# data = data.drop(columns=["date", "date.1"])
 
+# data.to_csv("data/Wetter/wetter_mod6.csv")
+
+# print(data.head())
+# print(data.dtypes)
 
 ##########################################
 # help functions
@@ -97,8 +106,6 @@ def get_day(df, index):
     dayname = pd.Timestamp(df.iloc[index]["created_at"])
     # print(friday.day_name())
     return dayname.day_name()  
-
-
 
 
 # Testing
