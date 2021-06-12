@@ -57,8 +57,6 @@ def covid_temperature_mensa(mensa_list, output):
         for index, count in enumerate(mensa["Anzahl"]):
             total_mensa[index] += count
     
-    print(total_mensa)       
-    
     fig, ax1 = plt.subplots(figsize=(20, 5))
     plt.xticks(rotation=45)
     ax1.set_xlabel("Woche")
