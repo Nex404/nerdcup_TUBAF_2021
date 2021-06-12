@@ -17,7 +17,7 @@ def main():
     # Covid dataframe
     covid_csv = "./data/covid19/Mittelsachsen.csv"
     covid_data = pd.read_csv(covid_csv, sep=",", header=0)
-    covid_data["Woche"] = data["Woche"].astype(str)
+    covid_data["Woche"] = covid_data["Woche"].astype(str)
     
     # weather dataframe
     weather_csv = "./data/Wetter/wetter_mod6.csv"
@@ -26,7 +26,6 @@ def main():
 
     # Join the mensa info with the covid information
     merged_df = pd.merge(all_mensa, covid_data, on="Woche")
-    
     # merged_df = pd.merge(merged_df, weather_data, on="Woche")
     # grouped_df = merged_df.groupby(by=["Woche"])
 
@@ -35,8 +34,35 @@ def main():
         x = merged_df[(merged_df["Name"] == name)]
         x_total = x.groupby(by=["Woche", "Name"])["Anzahl"].sum()
         x_total = x_total.reset_index()
-        print(x_total)
         total_values.append(x_total)
+
+    # Fill the holes with 0
+    for week in covid_data["Woche"]:
+        for index, mensa in enumerate(total_values):
+            is_empty = mensa[mensa["Woche"] == week].empty
+            if is_empty == True:
+                new_row = {
+                    "Woche": week,
+                    "Name": mensa_names[index],
+                    "Anzahl": 0
+                }
+                total_values[index] = mensa.append(new_row, ignore_index=True)
+    
+    # Create new columns (week/year)
+    for index, mensa in enumerate(total_values):
+        mensa.insert(0, "week", 0)
+        mensa.insert(1, "year", 0)
+
+    for index, mensa in enumerate(total_values):
+        for row in mensa.iterrows():
+            unformatted_date = row[1]["Woche"]
+            year = int(unformatted_date.split(".")[0])
+            week = int(unformatted_date.split(".")[1])
+            total_values[index].at[row[0], "year"] = year
+            total_values[index].at[row[0], "week"] = week
+    
+    for mensa in total_values:
+        print(mensa[mensa["year"] == 2020])
 
     colors = ['#E69F00', '#56B4E9', '#F0E442', '#009E73', '#D55E00']
 
