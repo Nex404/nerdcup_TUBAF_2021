@@ -26,8 +26,6 @@ def preprocessing():
 
     # Join the mensa info with the covid information
     merged_df = pd.merge(all_mensa, covid_data, on="Woche")
-    merged_df = pd.merge(merged_df, weather_data, on="Woche")
-    print(merged_df)
     # grouped_df = merged_df.groupby(by=["Woche"])
 
     total_values = list()
@@ -36,6 +34,10 @@ def preprocessing():
         x_total = x.groupby(by=["Woche", "Name"])["Anzahl"].sum()
         x_total = x_total.reset_index()
         total_values.append(x_total)
+
+    for index, mensa in total_values:
+        total_values[index] = pd.merge(merged_df, weather_data, on="Woche")
+        print(mensa)
 
     # Fill the holes with 0
     for week in covid_data["Woche"]:
@@ -66,9 +68,6 @@ def preprocessing():
 
 def main():
     total_values = preprocessing()
-    
-    for mensa in total_values:
-        print(mensa[mensa["year"] == 2020])
 
     colors = ['#E69F00', '#56B4E9', '#F0E442', '#009E73', '#D55E00']
 

@@ -5,7 +5,7 @@ Woche,Anzahl,Sorte,Name
 2019.17,134,Bedienstete,Vegetarisch
 2019.18,101,Bedienstete,Vegetarisch
 2019.19,162,Bedienstete,Vegetarisch
-2019.2,198,Bedienstete,Vegetarisch
+2019.20,198,Bedienstete,Vegetarisch
 2019.21,135,Bedienstete,Vegetarisch
 2019.22,121,Bedienstete,Vegetarisch
 2019.23,162,Bedienstete,Vegetarisch
@@ -15,7 +15,7 @@ Woche,Anzahl,Sorte,Name
 2019.27,169,Bedienstete,Vegetarisch
 2019.28,170,Bedienstete,Vegetarisch
 2019.29,144,Bedienstete,Vegetarisch
-2019.3,152,Bedienstete,Vegetarisch
+2019.30,152,Bedienstete,Vegetarisch
 2019.31,144,Bedienstete,Vegetarisch
 2019.32,192,Bedienstete,Vegetarisch
 2019.33,201,Bedienstete,Vegetarisch
@@ -25,7 +25,7 @@ Woche,Anzahl,Sorte,Name
 2019.37,70,Bedienstete,Vegetarisch
 2019.38,142,Bedienstete,Vegetarisch
 2019.39,171,Bedienstete,Vegetarisch
-2019.4,105,Bedienstete,Vegetarisch
+2019.40,105,Bedienstete,Vegetarisch
 2019.41,133,Bedienstete,Vegetarisch
 2019.42,155,Bedienstete,Vegetarisch
 2019.43,128,Bedienstete,Vegetarisch
@@ -35,7 +35,7 @@ Woche,Anzahl,Sorte,Name
 2019.47,112,Bedienstete,Vegetarisch
 2019.48,148,Bedienstete,Vegetarisch
 2019.49,184,Bedienstete,Vegetarisch
-2019.5,187,Bedienstete,Vegetarisch
+2019.50,187,Bedienstete,Vegetarisch
 2019.51,102,Bedienstete,Vegetarisch
 2020.02,194,Bedienstete,Vegetarisch
 2020.03,212,Bedienstete,Vegetarisch
@@ -45,12 +45,12 @@ Woche,Anzahl,Sorte,Name
 2020.07,206,Bedienstete,Vegetarisch
 2020.08,199,Bedienstete,Vegetarisch
 2020.09,154,Bedienstete,Vegetarisch
-2020.1,227,Bedienstete,Vegetarisch
+2020.10,227,Bedienstete,Vegetarisch
 2020.11,180,Bedienstete,Vegetarisch
 2020.12,66,Bedienstete,Vegetarisch
 2020.28,16,Bedienstete,Vegetarisch
 2020.29,194,Bedienstete,Vegetarisch
-2020.3,151,Bedienstete,Vegetarisch
+2020.30,151,Bedienstete,Vegetarisch
 2020.31,134,Bedienstete,Vegetarisch
 2020.32,173,Bedienstete,Vegetarisch
 2020.33,177,Bedienstete,Vegetarisch
@@ -60,7 +60,7 @@ Woche,Anzahl,Sorte,Name
 2020.37,207,Bedienstete,Vegetarisch
 2020.38,195,Bedienstete,Vegetarisch
 2020.39,194,Bedienstete,Vegetarisch
-2020.4,207,Bedienstete,Vegetarisch
+2020.40,207,Bedienstete,Vegetarisch
 2020.41,223,Bedienstete,Vegetarisch
 2020.42,203,Bedienstete,Vegetarisch
 2020.43,131,Bedienstete,Vegetarisch
@@ -70,7 +70,7 @@ Woche,Anzahl,Sorte,Name
 2020.47,140,Bedienstete,Vegetarisch
 2020.48,174,Bedienstete,Vegetarisch
 2020.49,158,Bedienstete,Vegetarisch
-2020.5,153,Bedienstete,Vegetarisch
+2020.50,153,Bedienstete,Vegetarisch
 2020.51,85,Bedienstete,Vegetarisch
 2020.52,5,Bedienstete,Vegetarisch
 2021.01,34,Bedienstete,Vegetarisch
@@ -82,7 +82,7 @@ Woche,Anzahl,Sorte,Name
 2021.07,97,Bedienstete,Vegetarisch
 2021.08,84,Bedienstete,Vegetarisch
 2021.09,102,Bedienstete,Vegetarisch
-2021.1,91,Bedienstete,Vegetarisch
+2021.10,91,Bedienstete,Vegetarisch
 2021.11,58,Bedienstete,Vegetarisch
 2021.12,125,Bedienstete,Vegetarisch
 2021.13,67,Bedienstete,Vegetarisch
@@ -96,7 +96,7 @@ Woche,Anzahl,Sorte,Name
 2019.17,611,Studenten,Vegetarisch
 2019.18,384,Studenten,Vegetarisch
 2019.19,556,Studenten,Vegetarisch
-2019.2,579,Studenten,Vegetarisch
+2019.20,579,Studenten,Vegetarisch
 2019.21,404,Studenten,Vegetarisch
 2019.22,463,Studenten,Vegetarisch
 2019.23,525,Studenten,Vegetarisch
@@ -106,7 +106,7 @@ Woche,Anzahl,Sorte,Name
 2019.27,638,Studenten,Vegetarisch
 2019.28,559,Studenten,Vegetarisch
 2019.29,377,Studenten,Vegetarisch
-2019.3,471,Studenten,Vegetarisch
+2019.30,471,Studenten,Vegetarisch
 2019.31,374,Studenten,Vegetarisch
 2019.32,497,Studenten,Vegetarisch
 2019.33,523,Studenten,Vegetarisch
@@ -116,7 +116,7 @@ Woche,Anzahl,Sorte,Name
 2019.37,120,Studenten,Vegetarisch
 2019.38,312,Studenten,Vegetarisch
 2019.39,285,Studenten,Vegetarisch
-2019.4,377,Studenten,Vegetarisch
+2019.40,377,Studenten,Vegetarisch
 2019.41,359,Studenten,Vegetarisch
 2019.42,724,Studenten,Vegetarisch
 2019.43,638,Studenten,Vegetarisch
@@ -126,7 +126,7 @@ Woche,Anzahl,Sorte,Name
 2019.47,574,Studenten,Vegetarisch
 2019.48,600,Studenten,Vegetarisch
 2019.49,637,Studenten,Vegetarisch
-2019.5,873,Studenten,Vegetarisch
+2019.50,873,Studenten,Vegetarisch
 2019.51,553,Studenten,Vegetarisch
 2020.02,679,Studenten,Vegetarisch
 2020.03,696,Studenten,Vegetarisch
@@ -136,12 +136,12 @@ Woche,Anzahl,Sorte,Name
 2020.07,662,Studenten,Vegetarisch
 2020.08,691,Studenten,Vegetarisch
 2020.09,571,Studenten,Vegetarisch
-2020.1,595,Studenten,Vegetarisch
+2020.10,595,Studenten,Vegetarisch
 2020.11,641,Studenten,Vegetarisch
 2020.12,193,Studenten,Vegetarisch
 2020.28,30,Studenten,Vegetarisch
 2020.29,424,Studenten,Vegetarisch
-2020.3,448,Studenten,Vegetarisch
+2020.30,448,Studenten,Vegetarisch
 2020.31,491,Studenten,Vegetarisch
 2020.32,448,Studenten,Vegetarisch
 2020.33,541,Studenten,Vegetarisch
@@ -151,7 +151,7 @@ Woche,Anzahl,Sorte,Name
 2020.37,373,Studenten,Vegetarisch
 2020.38,421,Studenten,Vegetarisch
 2020.39,434,Studenten,Vegetarisch
-2020.4,460,Studenten,Vegetarisch
+2020.40,460,Studenten,Vegetarisch
 2020.41,451,Studenten,Vegetarisch
 2020.42,398,Studenten,Vegetarisch
 2020.43,548,Studenten,Vegetarisch
@@ -161,7 +161,7 @@ Woche,Anzahl,Sorte,Name
 2020.47,398,Studenten,Vegetarisch
 2020.48,566,Studenten,Vegetarisch
 2020.49,470,Studenten,Vegetarisch
-2020.5,459,Studenten,Vegetarisch
+2020.50,459,Studenten,Vegetarisch
 2020.51,231,Studenten,Vegetarisch
 2020.52,14,Studenten,Vegetarisch
 2021.01,74,Studenten,Vegetarisch
@@ -173,7 +173,7 @@ Woche,Anzahl,Sorte,Name
 2021.07,298,Studenten,Vegetarisch
 2021.08,230,Studenten,Vegetarisch
 2021.09,305,Studenten,Vegetarisch
-2021.1,263,Studenten,Vegetarisch
+2021.10,263,Studenten,Vegetarisch
 2021.11,184,Studenten,Vegetarisch
 2021.12,289,Studenten,Vegetarisch
 2021.13,164,Studenten,Vegetarisch

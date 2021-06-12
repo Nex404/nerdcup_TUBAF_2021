@@ -5,7 +5,7 @@ Woche,Anzahl,Sorte,Name
 2019.17,104,Bedienstete,mensaVital
 2019.18,101,Bedienstete,mensaVital
 2019.19,101,Bedienstete,mensaVital
-2019.2,174,Bedienstete,mensaVital
+2019.20,174,Bedienstete,mensaVital
 2019.21,157,Bedienstete,mensaVital
 2019.22,79,Bedienstete,mensaVital
 2019.23,133,Bedienstete,mensaVital
@@ -15,7 +15,7 @@ Woche,Anzahl,Sorte,Name
 2019.27,171,Bedienstete,mensaVital
 2019.28,148,Bedienstete,mensaVital
 2019.29,180,Bedienstete,mensaVital
-2019.3,130,Bedienstete,mensaVital
+2019.30,130,Bedienstete,mensaVital
 2019.31,138,Bedienstete,mensaVital
 2019.38,33,Bedienstete,mensaVital
 2019.39,43,Bedienstete,mensaVital
@@ -28,7 +28,7 @@ Woche,Anzahl,Sorte,Name
 2019.47,106,Bedienstete,mensaVital
 2019.48,151,Bedienstete,mensaVital
 2019.49,179,Bedienstete,mensaVital
-2019.5,115,Bedienstete,mensaVital
+2019.50,115,Bedienstete,mensaVital
 2019.51,119,Bedienstete,mensaVital
 2020.02,184,Bedienstete,mensaVital
 2020.03,182,Bedienstete,mensaVital
@@ -38,14 +38,14 @@ Woche,Anzahl,Sorte,Name
 2020.07,170,Bedienstete,mensaVital
 2020.08,118,Bedienstete,mensaVital
 2020.09,129,Bedienstete,mensaVital
-2020.5,9,Bedienstete,mensaVital
+2020.50,9,Bedienstete,mensaVital
 2019.14,386,Studenten,mensaVital
 2019.15,551,Studenten,mensaVital
 2019.16,334,Studenten,mensaVital
 2019.17,350,Studenten,mensaVital
 2019.18,429,Studenten,mensaVital
 2019.19,431,Studenten,mensaVital
-2019.2,429,Studenten,mensaVital
+2019.20,429,Studenten,mensaVital
 2019.21,445,Studenten,mensaVital
 2019.22,208,Studenten,mensaVital
 2019.23,508,Studenten,mensaVital
@@ -55,7 +55,7 @@ Woche,Anzahl,Sorte,Name
 2019.27,422,Studenten,mensaVital
 2019.28,436,Studenten,mensaVital
 2019.29,430,Studenten,mensaVital
-2019.3,314,Studenten,mensaVital
+2019.30,314,Studenten,mensaVital
 2019.31,476,Studenten,mensaVital
 2019.36,1,Studenten,mensaVital
 2019.38,35,Studenten,mensaVital
@@ -69,7 +69,7 @@ Woche,Anzahl,Sorte,Name
 2019.47,305,Studenten,mensaVital
 2019.48,454,Studenten,mensaVital
 2019.49,507,Studenten,mensaVital
-2019.5,446,Studenten,mensaVital
+2019.50,446,Studenten,mensaVital
 2019.51,376,Studenten,mensaVital
 2020.02,459,Studenten,mensaVital
 2020.03,446,Studenten,mensaVital
@@ -81,4 +81,4 @@ Woche,Anzahl,Sorte,Name
 2020.09,354,Studenten,mensaVital
 2020.22,1,Studenten,mensaVital
 2020.33,0,Studenten,mensaVital
-2020.5,42,Studenten,mensaVital
+2020.50,42,Studenten,mensaVital
