@@ -11,9 +11,10 @@ def main():
     print(total_values)
     total_values[0].to_csv("test.csv")
     # total_values[0]["Woche"].plt
-    anzahl = total_values[0][total_values[0]["year"] == 2021]["Anzahl"].values
-    woche = total_values[0][total_values[0]["year"] == 2021]["week"].values
+    anzahl = total_values[0][total_values[0]["year"] == 2020]["Anzahl"].values
+    woche = total_values[0][total_values[0]["year"] == 2020]["Woche"].values
     plt.bar(height=anzahl, x=woche)
+    plt.xticks(rotation=45)
     plt.savefig("Mensa0.png")
     
     print(anzahl)
