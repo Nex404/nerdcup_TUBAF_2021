@@ -60,6 +60,9 @@ def preprocessing():
             total_values[index].at[row[0], "year"] = year
             total_values[index].at[row[0], "week"] = week
 
+    for index, mensa in enumerate(total_values):
+        total_values[index] = pd.merge(mensa, weather_data, on="Woche")
+        print(total_values[index])
 
     return total_values
 
