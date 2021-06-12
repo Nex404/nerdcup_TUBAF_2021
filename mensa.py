@@ -4,7 +4,7 @@ import numpy as np
 from utils import *
 import matplotlib.pyplot as plt
 
-def main():
+def preprocessing():
     # Mensa dataframe
     all_mensa_data = list()
     for mensa in mensa_data:
@@ -26,7 +26,8 @@ def main():
 
     # Join the mensa info with the covid information
     merged_df = pd.merge(all_mensa, covid_data, on="Woche")
-    # merged_df = pd.merge(merged_df, weather_data, on="Woche")
+    merged_df = pd.merge(merged_df, weather_data, on="Woche")
+    print(merged_df)
     # grouped_df = merged_df.groupby(by=["Woche"])
 
     total_values = list()
@@ -60,6 +61,11 @@ def main():
             week = int(unformatted_date.split(".")[1])
             total_values[index].at[row[0], "year"] = year
             total_values[index].at[row[0], "week"] = week
+
+    return total_values
+
+def main():
+    total_values = preprocessing()
     
     for mensa in total_values:
         print(mensa[mensa["year"] == 2020])
