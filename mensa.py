@@ -21,7 +21,7 @@ def preprocessing():
     
     # weather dataframe
     weather_csv = "./data/Wetter/wetter_mod6.csv"
-    weather_data = pd.read_csv(weather_csv, dtype={"Woche": object}, sep=",", header=0)
+    weather_data = pd.read_csv(weather_csv, dtype={"Woche": object}, sep=",", header=0, index_col=0)
     weather_data["Woche"] = weather_data["Woche"].astype(str)
 
     # Join the mensa info with the covid information
@@ -60,10 +60,15 @@ def preprocessing():
             total_values[index].at[row[0], "year"] = year
             total_values[index].at[row[0], "week"] = week
 
+    # Add the COVID-19 Data
+    for index, mensa in enumerate(total_values):
+        total_values[index] = pd.merge(mensa, covid_data, on="Woche")
+        total_values[index] = total_values[index].sort_values(["year", "week"])
+
+    # Add the Weather Data
     for index, mensa in enumerate(total_values):
         total_values[index] = pd.merge(mensa, weather_data, on="Woche")
         total_values[index] = total_values[index].sort_values(["year", "week"])
-        print(total_values[index])
 
     return total_values
 
