@@ -8,7 +8,7 @@ def preprocessing():
     # Mensa dataframe
     all_mensa_data = list()
     for mensa in mensa_data:
-        data = pd.read_csv(mensa["filename"], sep=",", header=0)
+        data = pd.read_csv(mensa["filename"], dtype={"Woche": object}, sep=",", header=0)
         data["Woche"] = data["Woche"].astype(str)
         all_mensa_data.append(data)
     
@@ -35,9 +35,9 @@ def preprocessing():
         x_total = x_total.reset_index()
         total_values.append(x_total)
 
-    for index, mensa in total_values:
-        total_values[index] = pd.merge(merged_df, weather_data, on="Woche")
-        print(mensa)
+    # for index, mensa in total_values:
+    #     total_values[index] = pd.merge(merged_df, weather_data, on="Woche")
+    #     print(mensa)
 
     # Fill the holes with 0
     for week in covid_data["Woche"]:
