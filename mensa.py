@@ -16,12 +16,12 @@ def preprocessing():
     
     # Covid dataframe
     covid_csv = "./data/covid19/Mittelsachsen.csv"
-    covid_data = pd.read_csv(covid_csv, sep=",", header=0)
+    covid_data = pd.read_csv(covid_csv, dtype={"Woche": object}, sep=",", header=0)
     covid_data["Woche"] = covid_data["Woche"].astype(str)
     
     # weather dataframe
     weather_csv = "./data/Wetter/wetter_mod6.csv"
-    weather_data = pd.read_csv(weather_csv, sep=",", header=0)
+    weather_data = pd.read_csv(weather_csv, dtype={"Woche": object}, sep=",", header=0)
     weather_data["Woche"] = weather_data["Woche"].astype(str)
 
     # Join the mensa info with the covid information
@@ -34,10 +34,6 @@ def preprocessing():
         x_total = x.groupby(by=["Woche", "Name"])["Anzahl"].sum()
         x_total = x_total.reset_index()
         total_values.append(x_total)
-
-    # for index, mensa in total_values:
-    #     total_values[index] = pd.merge(merged_df, weather_data, on="Woche")
-    #     print(mensa)
 
     # Fill the holes with 0
     for week in covid_data["Woche"]:
@@ -63,6 +59,7 @@ def preprocessing():
             week = int(unformatted_date.split(".")[1])
             total_values[index].at[row[0], "year"] = year
             total_values[index].at[row[0], "week"] = week
+
 
     return total_values
 
