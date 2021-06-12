@@ -30,17 +30,22 @@ def main():
     # Group by week
     grouped_df = merged_df.groupby(by=["Woche"])
 
-    x1 = list(merged_df[merged_df["Name"] == "Auflaeufe und Pizzen"]["Anzahl"])
-    x2 = list(merged_df[merged_df["Name"] == "mensaVital"]["Anzahl"])
-    x3 = list(merged_df[merged_df["Name"] == "Selbstwahltheken Gemuese Pasta Salat"]["Anzahl"])
-    x4 = list(merged_df[merged_df["Name"] == "tabula-CT und Wok"]["Anzahl"])
-    x5 = list(merged_df[merged_df["Name"] == "Vegetarisch"]["Anzahl"])
+    total_values = list()
+    for name in mensa_names:
+        x = merged_df[(merged_df["Name"] == name)]
+        x_total = x.groupby(by=["Woche", "Name"])["Anzahl"].sum()
+        x_total = x_total.reset_index()
+        total_values.append(x_total)
 
     colors = ['#E69F00', '#56B4E9', '#F0E442', '#009E73', '#D55E00']
+    
+    x_values = [temp_df["Woche"] for temp_df in total_values]
+    y_values = [temp_df["Anzahl"] for temp_df in total_values]
 
-    plt.hist([x1, x2, x3, x4, x5], color=colors, label=mensa_names, stacked=True)
-    plt.legend()
-    plt.savefig("test.png")
+    # plt.hist([x1, x2, x3, x4, x5], color=colors, label=mensa_names, stacked=True)
+
+    # plt.legend()
+    # plt.savefig("test.png")
 
 if __name__ == "__main__":
     main()
