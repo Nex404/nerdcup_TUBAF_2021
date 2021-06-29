@@ -59,7 +59,7 @@
 <br><br>
 
 <h4>Fiktive/Amüsante Ansätze</h4>
-<p>In diesem Abschnitt werden ausschließlich fiktive bzw. amüsante Ansätze verfolgt. Diese könnten aus den Daten interprätiert werden, machen aber absolut keinen Sinn. Dieser Abschnitt wird aus diesen Gründen auch relativ kurz gehalten.</p>
+<p>In diesem Abschnitt werden ausschließlich fiktive bzw. amüsante Ansätze verfolgt. Diese könnten aus den Daten interprätiert werden, machen aber absolut keinen Sinn.</p>
 <p>Im ersten kommenden Bild könnte man darauf schlussfolgern, dass erhöhtes vegitarisches Essen zu der 3. großen Corona Welle geführt hat.</p>
 <img src="images/mensa4.png" alt="images/mensa4.png">
 <br><br>
