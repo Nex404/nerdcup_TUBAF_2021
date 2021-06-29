@@ -44,7 +44,7 @@
 <p>In diesem Teil werden die Ergebnisse dierer 24h Challange dargestellt. Teilweise sind fiktive und auch sehr amüsante Rückschlüsse aus den Graphen zu entnehmen. </p>
 <h4>Realer Ansatz</h4>
 <p>Im folgenden Bild kann man die großen "Lockdowns" der letzten 1,5 Jahre sehen. Dabei ist deutlich zu erkenn, wann der erste Lockdown hier in Deutschland vollzogen wurde und wann Covid-19 zu einem Problem wurde.
-    Diese Zeit war von der Kalenderwoch 12-19. Zeitlich wäre dies zwischen anfang März und Mitte/Ende April. Auch gut zu sehen in diesem Bild ist der 2. Lockdown (3.Welle) Anfang des Jahres 2021. Für ca. 9 Wochen gab es nicht die Möglichkeit in der Mensa zu Essen.
+    Diese Zeit war von der Kalenderwoch 12-19. Zeitlich wäre dies zwischen Anfang März und Mitte/Ende April. Auch gut zu sehen in diesem Bild ist der 2. Lockdown (3.Welle) Anfang des Jahres 2021. Für ca. 9 Wochen gab es nicht die Möglichkeit in der Mensa zu Essen.
 </p>
 <img src="images/mensa3.png" alt="images/mensa3.png">
 <br><br>
@@ -59,5 +59,15 @@
 <br><br>
 
 <h4>Fiktive/Amüsante Ansätze</h4>
-
-
+<p>In diesem Abschnitt werden ausschließlich fiktive bzw. amüsante Ansätze verfolgt. Diese könnten aus den Daten interprätiert werden, machen aber absolut keinen Sinn. Dieser Abschnitt wird aus diesen Gründen auch relativ kurz gehalten.</p>
+<p>Im ersten kommenden Bild könnte man darauf schlussfolgern, dass erhöhtes vegitarisches Essen zu der 3. großen Corona Welle geführt hat.</p>
+<img src="images/mensa4.png" alt="images/mensa4.png">
+<br><br>
+<p>Das gleiche gilt auch für Gemüse-Pasta-Salat Theke, zu sehen im folgenden Bild.</p>
+<img src="images/mensa2.png" alt="images/mensa2.png">
+<br><br>
+<p>An regnerischen bzw. sehr luftfeuchten Tagen haben deutlich mehr Menschen die Mensa bevorzugt. Dies wird im folgenden Bild Dargestellt.</p>
+<img src="images/Hum_covid_mensa.png" alt="images/Hum_covid_mensa.png">
+<br><br>
+<p>Und als allerletztes Bild haben wir das Mensa-Vital Menü. Dies war ein One-Hit-Wonder am Ende von 2020 und wurde danach nie wieder gegessen.</p>
+<img src="images/mensa1.png" alt="images/mensa1.png">
